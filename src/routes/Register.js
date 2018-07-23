@@ -35,10 +35,7 @@ class RegForm extends Component {
         // err['passwordError'] = 'too long..';
         err[`${path}Error`] = message;
       });
-      
         this.setState(err);
-      
-      
     }
 
     console.log(response);
